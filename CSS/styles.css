@@ -98,6 +98,7 @@ a {
   line-height: 4rem;
   color: #464547;
   margin: 0 3.875rem 2.5625rem;
+  text-align: left;
 }
 
 .main-sec span::after {
@@ -113,6 +114,8 @@ a {
   line-height: 2rem;
   color: #666666;
   margin-bottom: 1.75rem;
+  margin-left: 3.875rem;
+  text-align: left;
 }
 
 .main-sec p {
@@ -121,8 +124,8 @@ a {
   font-size: 1rem;
   line-height: 1.375rem;
   color: #666666;
-  margin-left: 1.6875rem;
-  margin-right: 0.5rem;
+  margin-left: 3.875rem;
+  margin-right: 1.5rem;
   text-align: left;
 }
 
@@ -253,8 +256,19 @@ address {
     padding: 3.56rem 0 0;
   }
 
+  .main-sec h2,
+  .main-sec h3 {
+    text-align: center;
+  }
+
   .main-sec h3 {
     margin-bottom: 2.8125rem;
+    margin-left: 0;
+  }
+
+  .main-sec p {
+    margin-left: 1.6875rem;
+    margin-right: 1.5rem;
   }
 
   .main-sec p:first-of-type {
